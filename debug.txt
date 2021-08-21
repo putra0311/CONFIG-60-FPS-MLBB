@@ -1,0 +1,101 @@
+
+a.a.a.zy: ----------
+1. ERROR in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 368)
+	downweb.loadUrl("https://www.mediafire.com/file/ikfr8bg20yfk9vt/aimlock.cC435hNbT5RyuuHdYzzfe9JjsHcXz~3D/file");
+	^^^^^^^
+downweb cannot be resolved
+----------
+2. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 380)
+	request.allowScanningByMediaScanner(); request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+	        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method allowScanningByMediaScanner() from the type DownloadManager.Request is deprecated
+----------
+3. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 381)
+	java.io.File aatv = new java.io.File(Environment.getExternalStorageDirectory().getPath() + "/" + downStr);
+	                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+4. ERROR in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 791)
+	downweb.loadUrl("https://www.mediafire.com/file/ikfr8bg20yfk9vt/aimlock.cC435hNbT5RyuuHdYzzfe9JjsHcXz~3D/file");
+	^^^^^^^
+downweb cannot be resolved
+----------
+5. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 803)
+	request.allowScanningByMediaScanner(); request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
+	        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method allowScanningByMediaScanner() from the type DownloadManager.Request is deprecated
+----------
+6. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/MainActivity.java (at line 804)
+	java.io.File aatv = new java.io.File(Environment.getExternalStorageDirectory().getPath() + "/" + downStr);
+	                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+----------
+7. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/FileUtil.java (at line 217)
+	return Environment.getExternalStorageDirectory().getAbsolutePath();
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+8. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/FileUtil.java (at line 225)
+	return Environment.getExternalStoragePublicDirectory(type).getAbsolutePath();
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStoragePublicDirectory(String) from the type Environment is deprecated
+----------
+9. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/FileUtil.java (at line 237)
+	path = Environment.getExternalStorageDirectory() + "/" + split[1];
+	                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method getExternalStorageDirectory() from the type Environment is deprecated
+----------
+10. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/FileUtil.java (at line 292)
+	final String column = MediaStore.Images.Media.DATA;
+	                                              ^^^^
+The field MediaStore.MediaColumns.DATA is deprecated
+----------
+----------
+11. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 21)
+	View view = toast.getView(); 
+	                  ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+12. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 29)
+	view.setBackgroundDrawable(shape); 
+	     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setBackgroundDrawable(Drawable) from the type View is deprecated
+----------
+13. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 48)
+	View view = toast.getView(); 
+	                  ^^^^^^^^^
+The method getView() from the type Toast is deprecated
+----------
+14. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 58)
+	view.setBackgroundDrawable(shape); 
+	     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The method setBackgroundDrawable(Drawable) from the type View is deprecated
+----------
+15. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 122)
+	NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+	^^^^^^^^^^^
+The type NetworkInfo is deprecated
+----------
+16. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 122)
+	NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+	                                                    ^^^^^^^^^^^^^^^^^^^^^^
+The method getActiveNetworkInfo() from the type ConnectivityManager is deprecated
+----------
+17. WARNING in /storage/emulated/0/.sketchware/mysc/601/app/src/main/java/com/Booster/FF/Internasional/Winmos/SketchwareUtil.java (at line 123)
+	return activeNetworkInfo != null && activeNetworkInfo.isConnected();
+	                                                      ^^^^^^^^^^^^^
+The method isConnected() from the type NetworkInfo is deprecated
+----------
+17 problems (2 errors, 15 warnings)
+
+	at a.a.a.Dp.f(Dp.java:821)
+	at com.besome.sketch.design.DesignActivity$a.b(SourceFile:26)
+	at a.a.a.MA.a(SourceFile:3)
+	at a.a.a.MA.doInBackground(SourceFile:1)
+	at android.os.AsyncTask$2.call(AsyncTask.java:333)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:245)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1162)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:636)
+	at java.lang.Thread.run(Thread.java:764)
